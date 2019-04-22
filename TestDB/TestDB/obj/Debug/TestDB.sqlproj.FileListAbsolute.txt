@@ -1,0 +1,6 @@
+C:\Users\skill\Desktop\JacobsPrograms\DotNet\TestDB\TestDB\bin\Debug\TestDB.dacpac
+C:\Users\skill\Desktop\JacobsPrograms\DotNet\TestDB\TestDB\bin\Debug\TestDB.dll
+C:\Users\skill\Desktop\JacobsPrograms\DotNet\TestDB\TestDB\bin\Debug\TestDB.pdb
+C:\Users\skill\Desktop\JacobsPrograms\DotNet\TestDB\TestDB\obj\Debug\TestDB.sqlprojAssemblyReference.cache
+C:\Users\skill\Desktop\JacobsPrograms\DotNet\TestDB\TestDB\obj\Debug\TestDB.dll
+C:\Users\skill\Desktop\JacobsPrograms\DotNet\TestDB\TestDB\obj\Debug\TestDB.pdb
