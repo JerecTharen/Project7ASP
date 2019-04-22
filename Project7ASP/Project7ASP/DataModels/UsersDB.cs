@@ -16,10 +16,20 @@ namespace Project7ASP.DataModels
             this.db = db;
         }
 
+        public IEnumerable<UserData> GetAll()
+        {
+            return this.db.Users.ToList();
+        }
+
         public UserData Add(UserData newUser)
         {
             db.Add(newUser);
             return newUser;
+        }
+
+        public int GetMax()
+        {
+            return db.Users.Max<UserData>(u => u.Id);
         }
 
         public int Commit()
