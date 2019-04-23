@@ -1,0 +1,31 @@
+﻿@page "DeleteUser/{id:int}"
+@model Project7ASP.Pages.DeleteUserModel
+@{
+    ViewData["Title"] = "DeleteUser";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2>DeleteUser</h2>
+@if (Model.deleteUser != null)
+{
+    <div>
+        <h3>@Model.deleteUser.user_name</h3>
+        <p>@Model.deleteUser.first_name</p>
+        <p>@Model.deleteUser.last_name</p>
+        <p>@Model.deleteUser.age</p>
+        <p>@Model.deleteUser.email</p>
+    </div>
+    <h3>Do you really want to delete this user?</h3>
+    <form method="post">
+        <button type="submit">DELETE</button>
+        <button>
+            <a asp-page="/Users">BACK</a>
+        </button>
+    </form>
+}
+else
+{
+    <h3>User successfully deleted</h3>
+    <a asp-page="/Users">Back to Users</a>
+}
+

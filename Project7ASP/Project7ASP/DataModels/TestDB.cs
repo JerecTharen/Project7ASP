@@ -13,6 +13,12 @@ namespace Project7ASP.DataModels
         {
 
         }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<UserData>()
+        //        .HasKey(uh => new { uh.Id});
+        //}
+
 
         public DbSet<UserData> Users { get; set; }
     }

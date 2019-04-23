@@ -90,7 +90,7 @@ using Project7ASP;
             WriteLiteral("        ");
             EndContext();
             BeginContext(376, 938, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6fde985b531b4b989671e595933d2936", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9cfb189f727641ffa4bf10e3821af039", async() => {
                 BeginContext(396, 911, true);
                 WriteLiteral(@"
             <div>

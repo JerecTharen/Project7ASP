@@ -31,3 +31,5 @@ C:\Users\skill\Desktop\JacobsPrograms\DotNet\Project7ASP\Project7ASP\obj\Debug\n
 C:\Users\skill\Desktop\JacobsPrograms\DotNet\Project7ASP\Project7ASP\obj\Debug\netcoreapp2.1\Project7ASP.pdb
 C:\Users\skill\Desktop\JacobsPrograms\DotNet\Project7ASP\Project7ASP\obj\Debug\netcoreapp2.1\Project7ASP.csproj.CopyComplete
 C:\Users\skill\Desktop\JacobsPrograms\DotNet\Project7ASP\Project7ASP\obj\Debug\netcoreapp2.1\Razor\Pages\Users.g.cshtml.cs
+C:\Users\skill\Desktop\JacobsPrograms\DotNet\Project7ASP\Project7ASP\obj\Debug\netcoreapp2.1\Razor\Pages\UserEdit.g.cshtml.cs
+C:\Users\skill\Desktop\JacobsPrograms\DotNet\Project7ASP\Project7ASP\obj\Debug\netcoreapp2.1\Razor\Pages\DeleteUser.g.cshtml.cs

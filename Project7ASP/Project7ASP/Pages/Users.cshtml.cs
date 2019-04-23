@@ -31,5 +31,11 @@ namespace Project7ASP.Pages
             Users = dbUsers.GetAll();
 
         }
+
+        public void OnPost(int uid)
+        {
+            dbUsers.Delete(uid);
+            dbUsers.Commit();
+        }
     }
 }
