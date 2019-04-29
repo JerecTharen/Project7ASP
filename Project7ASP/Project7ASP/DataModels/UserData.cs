@@ -10,7 +10,7 @@ namespace Project7ASP.DataModels
     public class UserData
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public Int64 Id { get; set; }
         public string user_name { get; set; }
         public string first_name { get; set; }
         public string last_name { get; set; }

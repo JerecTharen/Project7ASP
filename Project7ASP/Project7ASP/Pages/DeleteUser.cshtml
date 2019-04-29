@@ -6,7 +6,7 @@
 }
 
 <h2>DeleteUser</h2>
-@if (Model.deleteUser != null)
+@if (Model.DeleteSuccess == true)
 {
     <div>
         <h3>@Model.deleteUser.user_name</h3>
@@ -25,7 +25,7 @@
 }
 else
 {
-    <h3>User successfully deleted</h3>
+    <h3>There was an error deleting that user, please try again.</h3>
     <a asp-page="/Users">Back to Users</a>
 }
 

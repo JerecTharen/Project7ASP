@@ -9,11 +9,11 @@ namespace Project7ASP.DataModels
     {
         IEnumerable<UserData> GetUserByUserName(string name);
         IEnumerable<UserData> GetAll();
-        UserData GetById(int id);
+        UserData GetById(Int64 id);
         UserData Update(UserData updatedUser);
         UserData Add(UserData newUser);
-        UserData Delete(int id);
-        int GetMax();
+        UserData Delete(Int64 id);
+        Int64 GetMax();
         int Commit();
     }
 }

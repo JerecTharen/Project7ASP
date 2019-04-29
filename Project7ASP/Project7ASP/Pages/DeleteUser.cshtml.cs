@@ -14,6 +14,8 @@ namespace Project7ASP.Pages
         private readonly IUserData dbUserData;
         public int UserId {get; set;}
         public UserData deleteUser;
+        public bool DeleteSuccess { get; set; } = true;
+        public int deleteCode { get; set; }
 
         public DeleteUserModel(IUserData dbUserData)
         {
@@ -29,7 +31,15 @@ namespace Project7ASP.Pages
         public void OnPost()
         {
             dbUserData.Delete(UserId);
-            dbUserData.Commit();
+            deleteCode = dbUserData.Commit();
+            if(deleteCode == 1)
+            {
+                RedirectToPage("Users");
+            }
+            else
+            {
+                DeleteSuccess = false;
+            }
         }
     }
 }

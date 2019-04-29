@@ -27,7 +27,7 @@ namespace Project7ASP.DataModels
             return newUser;
         }
 
-        public int GetMax()
+        public Int64 GetMax()
         {
             return db.Users.Max<UserData>(u => u.Id);
         }
@@ -37,17 +37,17 @@ namespace Project7ASP.DataModels
             return db.SaveChanges();
         }
 
-        public UserData Delete(int id)
+        public UserData Delete(Int64 id)
         {
             var user = GetById(id);
-            if(user != null)
+            if (user != null)
             {
                 db.Remove(user);
             }
             return user;
         }
 
-        public UserData GetById(int id)
+        public UserData GetById(Int64 id)
         {
             return db.Users.Find(id);
         }
@@ -55,7 +55,7 @@ namespace Project7ASP.DataModels
         public IEnumerable<UserData> GetUserByUserName(string name)
         {
             var query = from u in db.Users
-                        where u.user_name.StartsWith(name) || string.IsNullOrEmpty(name)
+                        where u.user_name.Contains(name) || string.IsNullOrEmpty(name)
                         orderby u.user_name
                         select u;
             return query;

@@ -27,7 +27,7 @@ namespace Project7ASP.Pages
 
         public void OnPost(string userName, string firstName, string lastName, int age, string email)
         {
-            int Id = this.dbUserData.GetMax() + 1;
+            Int64 Id = this.dbUserData.GetMax() + 1;
             UserData NewUser = new UserData() { Id = Id, user_name = userName, first_name = firstName, last_name = lastName, age=age, email=email};
             this.dbUserData.Add(NewUser);
             switch(this.dbUserData.Commit())
