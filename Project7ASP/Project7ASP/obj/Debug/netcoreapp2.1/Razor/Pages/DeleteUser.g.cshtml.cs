@@ -119,12 +119,12 @@ using Project7ASP;
             WriteLiteral("</p>\r\n    </div>\r\n    <h3>Do you really want to delete this user?</h3>\r\n    ");
             EndContext();
             BeginContext(519, 160, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48242fdd966540d682c2dbbd92f83f90", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "11d32d3de1ff4d2fa8ba9c5fe5f834e1", async() => {
                 BeginContext(539, 79, true);
                 WriteLiteral("\r\n        <button type=\"submit\">DELETE</button>\r\n        <button>\r\n            ");
                 EndContext();
                 BeginContext(618, 29, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "38e2bd3f6859411d84b85fca99c4af99", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "54c78db871bc40a8a5f28e84014581f3", async() => {
                     BeginContext(639, 4, true);
                     WriteLiteral("BACK");
                     EndContext();
@@ -175,7 +175,7 @@ else
             WriteLiteral("    <h3>There was an error deleting that user, please try again.</h3>\r\n    ");
             EndContext();
             BeginContext(768, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d4fb5c68f6e418fa99f555f65addc67", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b9cd4996de9c48d6b094e37ecd1025c8", async() => {
                 BeginContext(789, 13, true);
                 WriteLiteral("Back to Users");
                 EndContext();

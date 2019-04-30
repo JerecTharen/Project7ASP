@@ -29,7 +29,7 @@ namespace Project7ASP.Pages
         {
             dbUserData.Update(EditUser);
             int commitInt = dbUserData.Commit();
-            if(commitInt == 1)
+            if (commitInt == 1)
             {
                 Console.Beep();
             }

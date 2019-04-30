@@ -59,7 +59,7 @@ using Project7ASP;
             WriteLiteral("\r\n<h2>Database Users</h2>\r\n");
             EndContext();
             BeginContext(112, 179, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1c0e34381ff04bd19d57273286d1693f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5734748010e240f4bce590a07fbb5c3c", async() => {
                 BeginContext(132, 152, true);
                 WriteLiteral("\r\n    <label for=\"searchTerm\">Search: </label>\r\n    <input type=\"text\" id=\"searchTerm\" name=\"searchTerm\" />\r\n    <button type=\"submit\">SUBMIT</button>\r\n");
                 EndContext();
@@ -142,7 +142,7 @@ using Project7ASP;
             WriteLiteral("</td>\r\n                <td>");
             EndContext();
             BeginContext(758, 87, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1fb42808d9c846acbf7e53698fb08eaa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d791ef550f9d40d8a8688261382c4cf0", async() => {
                 BeginContext(809, 32, true);
                 WriteLiteral("<i class=\"fas fa-user-edit\"></i>");
                 EndContext();
@@ -177,7 +177,7 @@ using Project7ASP;
             WriteLiteral("</td>\r\n                <td>");
             EndContext();
             BeginContext(872, 84, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0bf39107fb3a4c74bfc37c70b8f5459c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4362e45e5ca644e6ad362a781a599559", async() => {
                 BeginContext(924, 28, true);
                 WriteLiteral("<i class=\"fas fa-trash\"></i>");
                 EndContext();

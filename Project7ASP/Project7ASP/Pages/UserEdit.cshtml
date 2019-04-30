@@ -7,6 +7,9 @@
 
 <h2>User Edit</h2>
 <form method="post">
+    <div style="display:none">
+        <input type="number" asp-for="EditUser.Id" />
+    </div>
     <div>
         <label for="user_name">Username: </label>
         <input asp-for="EditUser.user_name" type="text" />

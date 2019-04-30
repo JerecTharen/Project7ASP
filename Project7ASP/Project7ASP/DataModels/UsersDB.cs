@@ -66,6 +66,7 @@ namespace Project7ASP.DataModels
             var entity = db.Users.Attach(updatedUser);
             entity.State = EntityState.Modified;
             //db.Users.FromSql<UserData>($"UPDATE Users SET user_name={updatedUser.user_name}, first_name={updatedUser.first_name}, last_name={updatedUser.last_name}, age={updatedUser.age}, email={updatedUser.email} WHERE");
+            //db.SaveChanges();
             return updatedUser;
         }
     }
